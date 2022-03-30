@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 3.5em;
+}
+
+
+
+body video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .8 ;
+    z-index: -1;
+}
+
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+#time {
+    font-size: 3em;
+    margin-top: 250px;
+    margin-bottom: 0;
+}
+
+.todo {
+    margin-top: 50px;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+#todo-input {
+    display: inline-block;
+    border-bottom: 2px solid #ffffff;
+}
+
+#greeting {
+    margin: 0 auto;
+}
+
+#task {
+    margin: 0 auto;
+    display: block;
+    font-size: inherit;
+    width: 50%;
+    background: none;
+    color: #ffffff;
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+}
+
+input:focus {
+    outline: none;
+}
+
+span:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: #ffffff;
+    text-align: center;
+}
+
+#userName {
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+    width: 5em;
+    font-family: inherit;
+    font-size: inherit;
+    background: none;
+    color: #ffffff;
+}
+
+#todoItems {
+    display: inline-block;
+}
